@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -13,13 +21,13 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 button,
 input,
 textarea,
 select {
   font: inherit;
+}
+
+a {
+  text-decoration: none;
 }
